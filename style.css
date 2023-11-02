@@ -1,0 +1,240 @@
+@media (max-width:  375px) {
+    .Slider > img {
+      max-width: 350px;
+      height: 100px;
+      
+      
+     
+    }
+
+}
+@media (max-width:  375px) {
+    .subHeader a {
+         
+        font-size: 10px;
+      
+        
+    
+      
+     
+    }
+
+}
+@media (max-width:  415px) {
+    .subHeader a {
+         
+         font-size: 12px;
+        
+    
+      
+     
+    }
+
+}
+
+
+
+@media (max-width:  415px) {
+    .Slider > img {
+      max-width: 90%;
+      height: 120px;
+      
+      
+      
+     
+    }
+
+}
+@media (max-width: 375px) {
+     .h2 h2  {
+     
+      margin-left: 10px !important;
+      font-size: 25px;
+     
+      
+     
+    }
+
+}
+@media (max-width: 415px) {
+    .h2 h2  {
+    
+     margin: 135px !important;
+     font-size: 30px;
+    
+     
+    
+   }
+
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: whitesmoke;
+
+
+
+}
+
+.header .input {
+    margin-top: 15px;
+
+
+
+}
+
+.header .input img{
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.header .input .input1 {
+    padding-left: 20px;
+    width: 300px;
+    border-radius: 5px;
+  
+
+}
+
+.header .Login button {
+    margin-top: 15px ;
+    padding: 8px;
+    border: hidden;
+    background-color: whitesmoke;
+    cursor: pointer;
+    font-weight: bolder;
+    transition: .3s all;
+    
+}
+
+.header .Login button:hover{
+    border-bottom: 3px solid black;
+}
+
+/* subHeader */
+
+.subHeader{
+    display: flex;
+     /* justify-content: center; */
+    /* gap: 50px;     */
+    margin-top: 30px;
+    justify-content: space-evenly;
+
+
+}
+
+.subHeader a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    cursor: pointer;
+    gap: 10px;
+    /* transition: .3s all; */
+
+}
+
+.subHeader h3{
+    font-family: sans-serif  !important;
+    cursor: pointer;
+    font-size: 20px !important;
+
+}
+
+.subHeader a:hover {
+    border-bottom: 2px solid black;
+}
+
+.Slider{
+    margin-top: 40px  ;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.Slider img{
+    cursor: pointer;
+    
+}
+.Slider img:hover{
+    transform: scale(0.8) !important;
+}
+
+h2{
+    margin-left: 250px ;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.cards .card1{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 30px;
+}
+
+.cards .card1:hover{
+    transform: scale(0.8);
+}
+
+/* SQUARE CARDS  */
+ 
+
+.SqCards{
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 100px !important;
+    
+}
+
+.subHeader #anchor{
+    font-weight: bolder ;
+}
+
+.footer{
+    margin-top: 60px !important;
+}
+
+.card img:hover{
+    transform: scale(0.8);
+}
+
+.card{
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: whitesmoke !important;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+}
+.navbar .btn-primary{
+    width: 200px !important;
+}
+
+.navbar  img {
+    cursor: pointer !important;
+}
